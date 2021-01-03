@@ -31,7 +31,7 @@ $font = 'msyh.ttf';//加载字体
 //输出
 imagettftext($im, 16, 0, 10, 40, $red, $font,'Address '.$country.' '.$region.' '.$ip);
 imagettftext($im, 16, 0, 10, 72, $red, $font, 'Date '.date('Y年n月j日').' 星期'.$weekarray[date("w")]);//当前时间添加到图片
-imagettftext($im, 16, 0, 10, 104, $red, $font,'OS '.$os.' Author:@BlueSkyXN');
+imagettftext($im, 16, 0, 10, 104, $red, $font,'Author:@BlueSkyXN'.'  OS '.$os);
 imagettftext($im, 16, 0, 10, 140, $red, $font,'Mail:BlueSky@000714.xyz');
 imagettftext($im, 16, 0, 10, 175, $red, $font,'Blog:blog.000714.xyz'.'|HomePage:000714.xyz');
 imagettftext($im, 13, 0, 10, 200, $black, $font,$get); 
